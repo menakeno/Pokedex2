@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/528/528101.png">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <title>
+    PokeDex
+  </title>
+  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
+  <!--     Fonts and icons     -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+  <!-- CSS Files -->
+  <link href="./assets/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="./assets/css/paper-kit.css?v=2.2.0" rel="stylesheet" />
+  <link rel="stylesheet" href="./assets/css/custom.css">
+</head>
+
+<body class="index-page sidebar-collapse">
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg fixed-top navbar-transparent " color-on-scroll="300">
+    <div class="container">
+      <div class="navbar-translate">
+        <a class="navbar-brand" href="#" rel="tooltip" title="Gotta catch 'em all" data-placement="bottom" target="_blank">
+          PokeDex
+        </a>
+        <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-bar bar1"></span>
+          <span class="navbar-toggler-bar bar2"></span>
+          <span class="navbar-toggler-bar bar3"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse justify-content-end" id="navigation">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a href="https://pokeapi.co" target="_blank" class="btn btn-danger">API Link</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- End Navbar -->
+  <div class="page-header section-dark" style="background-image: url('https://images3.alphacoders.com/119/119657.jpg')">
+    <div class="filter"></div>
+    <div class="content-center">
+      <div class="container">
+        <div class="title-brand">
+          <h1 class="presentation-title">PokeDex</h1>
+          <!--<div class="fog-low">
+            <img src="./assets/img/fog-low.png" alt="">
+          </div>-->
+          <!--<div class="fog-low right">
+            <img src="./assets/img/fog-low.png" alt="">
+          </div>-->
+        </div>
+        <h2 class="presentation-subtitle text-center">Gotta catch 'em all!
+          <br />
+          <br />
+          <br />  
+          <span><i class="fa fa-angle-double-down" aria-hidden="true"></i></span>
+        </h2>
+        
+      </div>
+    </div>
+    <div class="moving-clouds" style="background-image: url('./assets/img/clouds.png'); "></div>
+  </div>
+<div class="main">
+  <div class="section text-center pokemon-result">
+    <div class="container">
+      <!--<div class="row">
+        <div class="col-md-8 ml-auto mr-auto">
+          <h2 class="title">Search</h2>
+            <form id="form">
+              <div class="input-group">
+                <input type="text" class="form-control" id="search-input" placeholder="Find a pokemon...">
+                <div class="input-group-append">
+                  <button class="btn btn-danger" id="search-btn">
+                    <i class="fa fa-search"></i> Search
+                  </button>
+                </div>
+              </div>
+            </form>
+          <br>
+        </div>
+      </div>-->
+      <br />
+      <br />
+      <br />
+      <br />
+      <div class="row" id="pokemon-result">
+       
+        <!--<div class="col-md-3">
+          <div class="card">
+            <img class="card-img-top" src="https://cdn.vox-cdn.com/thumbor/e4KRzS--UsuixA2G8TOCwJ-O024=/1400x1050/filters:format(png)/cdn.vox-cdn.com/uploads/chorus_asset/file/6839749/pokemon.0.png" alt="Card image cap">
+            <div class="card-body">
+              <h6><strong>#000</strong></h6>
+              <h4 class="card-title"><strong>Pokemon Name</strong></h4>
+              <br />
+              <a href="#" class="btn btn-danger" data-toggle="modal" data-target="#pokemonDetails">Details</a>
+            </div>
+          </div>
+        </div>-->
+        
+        
+      </div>
+    </div>
+  </div> 
+</div><!-- Main-->
+   
+    
+    <footer class="footer footer-black  footer-white section-dark">
+      <div class="container">
+        <div class="row">
+          <nav class="footer-nav">
+            <ul>
+              <li>
+                <a href="https://www.creative-tim.com/product/paper-kit-2" target="_blank">UI Kit by CreativeTim</a>
+              </li>
+              <li>
+                <a href="https://pokeapi.co" target="_blank">Pokemon API</a>
+              </li>
+              <li>
+                <a href="https://wall.alphacoders.com/by_sub_category.php?id=173211&name=Pok%C3%A9mon+Wallpapers" target="_blank">Cover Image - AlphaCoders</a>
+              </li>
+              <li>
+                <a href="https://www.flaticon.com/free-icon/pokeball_528101?term=pokeball&page=1&position=3&page=1&position=3&related_id=528101&origin=tag" target="_blank">PokeBall Favicon - Flaticons</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="credits ml-auto">
+            <span class="copyright">
+              ©
+              <script>
+                document.write(new Date().getFullYear())
+              </script>, made with lots of <i class="fa fa-heart heart"></i> 
+            </span>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--   Core JS Files   -->
+    <script src="./assets/js/App/App.js" type="text/javascript"></script>
+    <script src="./assets/js/core/jquery.min.js" type="text/javascript"></script>
+    <script src="./assets/js/core/popper.min.js" type="text/javascript"></script>
+    <script src="./assets/js/core/bootstrap.min.js" type="text/javascript"></script>
+    <!-- Control Center for Paper Kit: parallax effects, scripts for the example pages etc -->
+    <script src="./assets/js/paper-kit.js?v=2.2.0" type="text/javascript"></script>
+</body>
+
+</html>

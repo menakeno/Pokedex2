@@ -1,0 +1,101 @@
+/*
+ CUSTOM CSS
+*/
+/*
+ pokemon type color source: https: //gist.github.com/apaleslimghost/0d25ec801ca4fc43317bcff298af43c3
+*/
+:root {
+    --normal: #A8A77A;
+    --fire: #EE8130;
+    --water: #6390F0;
+    --electric: #F7D02C;
+    --grass: #7AC74C;
+    --ice: #96D9D6;
+    --fighting: #C22E28;
+    --poison: #A33EA1;
+    --ground: #E2BF65;
+    --flying: #A98FF3;
+    --psychic: #F95587;
+    --bug: #A6B91A;
+    --rock: #B6A136;
+    --ghost: #735797;
+    --dragon: #6F35FC;
+    --dark: #705746;
+    --steel: #B7B7CE;
+    --fairy: #D685AD;
+}
+.badge-normal {
+    background-color: var(--normal);
+}
+
+.badge-fire {
+    background-color: var(--fire);
+}
+
+.badge-water {
+    background-color: var(--water);
+}
+
+.badge-electric {
+    background-color: var(--electric);
+}
+
+.badge-grass {
+    background-color: var(--grass);
+}
+
+.badge-ice{
+    background-color: var(--ice);
+}
+
+.badge-fighting {
+    background-color: var(--fighting);
+}
+
+
+.badge-poison {
+    background-color: var(--poison);
+}
+
+.badge-ground {
+    background-color: var(--ground);
+}
+
+.badge-flying {
+    background-color: var(--flying);
+}
+
+.badge-psychic {
+    background-color: var(--psychic);
+}
+
+.badge-bug {
+    background-color: var(--bug);
+}
+
+.badge-rock {
+    background-color: var(--rock);
+}
+
+.badge-ghost {
+    background-color: var(--ghost);
+}
+
+.badge-dragon {
+    background-color: var(--dragon);
+}
+
+.badge-dark {
+    background-color: var(--dark);
+}
+
+.badge-steel {
+    background-color: var(--steel);
+}
+
+.badge-fairy {
+    background-color: var(--fairy);
+}
+
+
+
